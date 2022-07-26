@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="font-rm bg-black">
       <div className="container text-light df aic justify-content-center">
-        <div className="df aic justify-content-center fd-format">
+        <div className="df aic justify-content-center fd-format text-right">
           <p className="lg-ft">
             contact&nbsp;
             <a className="cli-item" href="https://github.com/">
@@ -21,7 +21,7 @@ function Footer() {
           </p>
         </div>
 
-        <div className="df aic justify-content-center fd-format">
+        <div className="df aic justify-content-center fd-format text-right">
           <p className="lg-ft">
             code&nbsp;
             <a className="cli-item" href="https://github.com/">

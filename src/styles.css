@@ -3,6 +3,67 @@
   text-align: center;
 }
 
+html,
+html * {
+  cursor: none;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+.cursor {
+  position: fixed;
+  background: red;
+  opacity: 0.5;
+  width: 12px;
+  height: 12px;
+  margin: -6px;
+  border-radius: 50%;
+  will-change: transform;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 200;
+}
+
+a:any-link {
+  color: white !important;
+}
+
 .font-rm {
   font-family: "Roboto Mono", monospace !important;
+}
+
+.font-pr {
+  font-family: "Prata", serif;
+}
+
+.full-vh {
+  height: 100vh;
+}
+
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.fd-format {
+  flex-direction: row;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .fd-format {
+    flex-direction: column;
+  }
 }
